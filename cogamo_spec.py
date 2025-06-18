@@ -8,11 +8,6 @@ import sys                            #コマンドライン引数を読み取�
 from matplotlib import gridspec       #残差を下につけたりできるライブラリ
 
 
-# cmd = "rm -f evt_35.txt"
-# cmd = "wget --no-check-certificate -O evt_35.txt 'https://www.dropbox.com/scl/fi/bkabledwct42e3a2t5isg/evt_35.txt?rlkey=bwxoynnyym79x8ht3jjrvz9cc&dl=0'"
-# os.system(cmd)
-
-
 #コマンドラインの第一引数からファイルネームを取得してfilenameに格納
 filename=sys.argv[1]
 
