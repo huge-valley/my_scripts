@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd                   #csv読み込みに必要
 import matplotlib.pylab as plt        #plot用
 import smplotlib                      #plotをいい感じにするためのライブラリ
-import iminuit                        #最小化(フィッティング)を行うためのライブラリ
+import iminuit                        #chi squareフィッティングを行うためのライブラリ
 import sys                            #コマンドライン引数を読み取るライブラリ
 from matplotlib import gridspec       #残差を下につけたりできるライブラリ
 
